@@ -53,7 +53,7 @@ namespace Lumememm
             snowman.Opacity = SliderOpacity.Value / 100;
             if((int)snowman.Opacity == 1)
             {
-                SliderLabel.Text = "";
+                SliderLabel.Text = "";//снеговик тает
             }
             else
             {
